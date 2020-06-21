@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: indianred;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body
+{
+    background-color: thistle;
+}
+
+.Ipod
+{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(26, 25, 25, 0.897);
+    box-shadow: inset 0 0 2.4em rgb(29, 28, 28);
+
+    margin:40% ;
+    margin-top: 40px;
+}
+.screen
+{
+    width: 90%;
+    height: 40%;
+    margin: 16px;
+    position: absolute;
+    border-radius: 10px;
+    /* background-color: rgba(26, 25, 25, 0.897); */
+    background: url(https://fsb.zobj.net/crop.php?r=ES8LId6ekuqqapmALYkX64wPsXDyRVt2PZEAt17D99jwCID_vmhV7czO8-pf8cHartGCwgg28ciN_0Muo79GGaE_mW-wI-29BKNkdHEErhXGHF5NKXyQQdC0AFxkyxUlNmjmArD5pRPPExt1);
+    background-size: cover;
+}
+.buttons
+{
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    /* background-color:rgb(236, 234, 234); */
+    background-color: rgb(10, 10, 10);
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+    box-shadow: inset 0 0 2.4em rgb(29, 28, 28);
+    color: blanchedalmond;
+}
+.centerButton
+{
+    position:absolute;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(26, 25, 25, 0.897);
+    box-shadow: inset 0 0 1em rgb(92, 91, 91);
+
+    bottom: 67px;
+    right: 73px;
+    border-radius: 100%;
+}
+.centerButton:hover
+{
+    box-shadow: inset 0 0 0.9em #32e0c4;
+    cursor: pointer;
+}
+.menu
+{
+    margin-top: 25px;
+    color: blanchedalmond;
+}
+.menu:hover
+{
+    cursor: pointer;
+    color: #32e0c4;
+    text-shadow: 0 0 2.7em #01a9b4;
+}
+.play-pause
+{
+    margin-top:60px;
+}
+.play-pause img
+{
+    position:relative;
+    width: 20px;
+    color:#ffebcd;
+}
+img:hover
+{
+    cursor: pointer;
+    color: #32e0c4;
+    text-shadow: 0 0 2.7em #01a9b4;
+}
+.fast-forward
+{
+    text-align: right;
+    margin-top: -9% !important;
+    margin-right: 32px ;
+    right: 10px !important;
+}
+.fast-forward img
+{
+    position: relative;
+    width: 20px;
+}
+.fast-backward
+{
+    text-align: left;
+    left: 0;
+    margin-left: 30px;
+    margin-top: 22%;
+}
+.fast-backward img
+{
+    width: 20px;
+}
