@@ -4,6 +4,8 @@ import Ipod from "./Ipod.js";
 
 class App extends React.Component
 {
+
+  // to render whole app
   render()
   {
     return (

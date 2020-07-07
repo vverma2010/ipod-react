@@ -4,6 +4,8 @@ import Img from './play.png';
 import Forward from './fast-forward.svg';
 import Backward from './backward.svg';
 
+
+// control buttons setup
 const Controls = (props) => {
     return (
         <div className="outer">

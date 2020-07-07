@@ -1,9 +1,8 @@
 import React from 'react';
 import './ipod.css';
 import './Screen.css';
-// import ZingTouch from 'zingtouch';   
 
-
+//menulist   
 const Screen = (props) => {
     return(
         <div className="screen" id="mainWindow">

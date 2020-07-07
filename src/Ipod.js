@@ -18,6 +18,7 @@ class Ipod extends React.Component
         }
     }
 
+    // control rotation
     rotateCon=(e) => {
         let angle = 0;
         const target = document.getElementById('outercircle');
@@ -94,7 +95,7 @@ class Ipod extends React.Component
             }
         })
     }
-
+    // control click
     enter = (props) => {
         if(this.state.Menu === true && this.state.songs === true)
         {
@@ -156,6 +157,8 @@ class Ipod extends React.Component
             window.appendChild(image);
         }
     }
+
+    // control return button
     itemClick = (props) => {
         if(this.state.Menu === false)
         {
@@ -173,6 +176,8 @@ class Ipod extends React.Component
             })
         }
     }
+
+    // renders the components into the screen
     render()
     {
         return(
