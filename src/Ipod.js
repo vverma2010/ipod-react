@@ -138,6 +138,8 @@ class Ipod extends React.Component
 
         if(this.state.Menu === true && this.state.album === true)
         {
+            this.setState({Menu: false});
+
             let window = document.getElementById("mainWindow");
             let list = document.getElementById('list');
             list.style.visibility = "hidden";
@@ -157,7 +159,7 @@ class Ipod extends React.Component
     itemClick = (props) => {
         if(this.state.Menu === false)
         {
-            let back =document.getElementById('image-screen');
+            let back = document.getElementById('image-screen');
             back.remove();
             let menuList = document.getElementById('list');
             menuList.style.visibility = "visible";
