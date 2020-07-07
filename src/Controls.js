@@ -3,29 +3,29 @@ import './ipod.css';
 import Img from './play.png';
 import Forward from './fast-forward.svg';
 import Backward from './backward.svg';
-// import {fontAwesomeIcon} from "@fortawesome/react-fontawesome"
-// import 
 
 const Controls = (props) => {
     return (
-        <div className="buttons">
-            <div className="menu">
-                MENU
-            </div>
-            
-            <div className="fast-backward">
-                <img src= {Backward} alt="Fast-back"/>
-            </div>
-            <div className="fast-forward">
-                <img src = {Forward} alt = "Fast-for" />
+        <div className="outer">
+            <div className="buttons" id="outercircle" onClick={props.rotate}>
+                <div className="menu" onClick={props.screen}>
+                    MENU
+                </div>
+                
+                <div className="fast-backward">
+                    <img src= {Backward} alt="Fast-back"/>
+                </div>
+                <div className="fast-forward">
+                    <img src = {Forward} alt = "Fast-for" />
 
-            </div>
-            <div className="play-pause">
-                <img src={Img} alt="play/pause"/>
-            </div>
+                </div>
+                <div className="play-pause">
+                    <img src={Img} alt="play/pause"/>
+                </div>
 
-            <div className="centerButton">
+                <div className="centerButton" onClick={props.centerB}>
 
+                </div>
             </div>
         </div>
     );

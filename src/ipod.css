@@ -68,6 +68,7 @@ body
 {
     margin-top: 25px;
     color: blanchedalmond;
+    user-select: none;
 }
 .menu:hover
 {
